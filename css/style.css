@@ -2,6 +2,10 @@
 /* Css Styles                        */
 /*---------------------------------- */
 
+@import url("css/clear.css");
+@import url("css/owl.carousel.css");
+@import url("css/owl.theme.css");
+
 /* these are my custom styles */
 .hover-img {
 	background-color: #000;
