@@ -39,7 +39,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -53,6 +53,7 @@ web_modules/
 
 # Optional eslint cache
 .eslintcache
+eslintrc.json
 
 # Optional stylelint cache
 .stylelintcache
