@@ -540,15 +540,15 @@ ul.profile-information li:first-child:before {
 }
 
 ul.profile-information li:first-child:after {
-	background: url(../images/glasses-w.png) no-repeat;
+	background: url(../images/logo.png) no-repeat;
 	content: "";
 	width: 30px;
-	height: 10px;
+	height: 27px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 16px -15px;
-	background-size: 27px 10px;
+	margin: 12px -15px;
+	background-size: 27px 18px;
 }
 
 .profile .site-btn {
