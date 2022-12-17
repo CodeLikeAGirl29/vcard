@@ -1,6 +1,8 @@
 /* --------------------------------- */
 /* Css Styles                        */
 /*---------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Londrina+Shadow");
 
 @import url("css/clear.css");
 @import url("css/owl.carousel.css");
@@ -132,9 +134,44 @@ html {
 
 /* Typography */
 
-hr {
-	width: 100%;
-	background: #efefef;
+.six h1 {
+	text-align: center;
+	color: #222;
+	font-size: 30px;
+	font-weight: 400;
+	word-spacing: 1px;
+	letter-spacing: 2px;
+	color: #15db95;
+}
+.six h1 span {
+	line-height: 2em;
+	padding-bottom: 15px;
+	text-transform: none;
+	font-size: 0.7em;
+	font-weight: normal;
+	font-style: italic;
+	font-family: "Playfair Display", "Bookman", serif;
+	color: #999;
+	letter-spacing: -0.005em;
+	word-spacing: 1px;
+	letter-spacing: none;
+}
+.six h1:after,
+.six h1:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 45px;
+	height: 4px;
+	content: "";
+	right: 45px;
+	margin: auto;
+	background-color: #ccc;
+}
+.six h1:before {
+	background-color: #ff4040;
+	left: 45px;
+	width: 90px;
 }
 
 .blog-title {
@@ -257,8 +294,9 @@ blockquote {
 
 h1 {
 	font-family: "Poppins", sans-serif;
-	font-size: 50px;
+	font-size: 24px;
 	font-weight: 500;
+	text-decoration: underline;
 }
 
 h2 {
@@ -838,6 +876,170 @@ ul.timeline {
 }
 
 /*------------------------ 6 Portfolio Section ------------------------*/
+
+#projects-container {
+	margin: auto;
+	width: 100%;
+	/* margin-top: 7%; */
+}
+
+#projects {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#title-and-separator {
+	margin-top: 4%;
+	margin-bottom: 2%;
+	width: 100%;
+	text-align: center;
+}
+
+/* #title-and-separator hr { */
+/* border: 0; */
+/* height: 1px; */
+/* width: 10%; */
+/* position: relative;
+  margin: 30px auto;
+} */
+
+hr {
+	position: relative;
+	background-color: none;
+	border: none;
+	height: 3px;
+	width: 100%;
+	margin: 45px auto;
+	text-align: center;
+}
+
+hr:after {
+	position: relative;
+	top: -0.8em;
+	font-size: 5em;
+	background: none;
+	display: inline-block;
+	color: #ff4040;
+	font-family: "Londrina Shadow";
+	line-height: 1;
+	content: ". . . . . . .";
+}
+
+.project {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 33%;
+	margin: 1% 7% 1% 7%;
+}
+
+#image-subtitle {
+	font-family: "Caveat", cursive;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 21px;
+	color: whitesmoke;
+}
+
+#overlay-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #242424;
+	opacity: 0.8;
+}
+
+.project-image {
+	width: 640;
+	height: 460;
+	box-shadow: 2px 2px 5px #bebebe;
+	justify-content: space-between;
+}
+
+/* Projects One and Two */
+
+#first-two {
+	overflow-x: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Projects Three and Four */
+
+#second-two {
+	overflow-x: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Projects Five and Six */
+
+#third-three {
+	overflow-x: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Projects Seven and Eight */
+
+#fourth-four {
+	overflow-x: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Projects Nine and Ten */
+
+#fifth-five {
+	overflow-x: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Projects Eleven and Twelve */
+
+#sixth-six {
+	overflow-x: auto;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#project-eleven,
+#project-twelve,
+#project-thirteen {
+	width: 15%;
+}
+
+#project-eleven p,
+#project-twelve p,
+#project-thirteen p {
+	font-size: 18px;
+}
 
 #portfolio .cbp-item {
 	padding: 15px !important;
