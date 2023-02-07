@@ -1,327 +1,594 @@
 <!doctype html>
 <html lang="en">
-<head>
-
+  <head>
     <!-- Simple Page Needs
 ================================================== -->
-    <title>Mat</title>
+    <title>linds</title>
     <meta charset="UTF-8">
     <meta name="description" content="Mat - Resume & vCard HTML Template">
     <meta name="keywords" content="personal, vcard, portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Favicon
 ================================================== -->
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
     <!-- CSS
 ================================================== -->
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../cubeportfolio/css/cubeportfolio.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/colors/turquoise.css" id="color" />
-
+    <link rel="stylesheet" href="../css/colors/mint.css" id="color" />
     <!-- Google Web fonts
 ================================================== -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Font Icons
 ================================================== -->
     <link rel="stylesheet" href="../icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="../icon-fonts/web-design/flaticon.css" />
-
+    <!-- Font Awesome Icons 
+      ==================================================-->
     <script src="https://kit.fontawesome.com/29b275fb0c.js" crossorigin="anonymous"></script>
-
+    <!-- Highlight.js 
+    =================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js" integrity="sha512-bgHRAiTjGrzHzLyKOnpFvaEpGzJet3z4tZnXGjpsCcqOnAH6VGUx9frc5bcIhKTVLEiCO6vEhNAgx5jtLUYrfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-</head>
-<body>
+						<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+						<![endif]-->
+  </head>
+  <body>
     <!-- Preloading -->
     <div id="preloader">
-        <div class="spinner">
-        </div>
+      <div class="spinner"></div>
     </div>
-
     <!-- Wrapper -->
     <div class="wrapper top_60 container">
-        <div class="row">
-
-            <!-- Profile Section
+      <div class="row">
+        <!-- Profile Section
 ================================================== -->
-            <div class="col-lg-3 col-md-4">
-                <div class="profile">
-                    <div class="profile-name">
-                        <span class="name">Lindsey Howard</span><br>
-                        <span class="job">Full Stack Web Developer</span>
-                    </div>
-                    <figure class="profile-image">
-                        <img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1647244082/profile-img_yuhdxb.jpg"
-                            alt="">
-                    </figure>
-                    <ul class="profile-information">
-                        <li>
-                            <p><span>Name:</span> Lindsey Howard</p>
-                        </li>
-                        <li>
-                            <p><span>Birthday:</span> January 17, 1991</p>
-                        </li>
-                        <li>
-                            <p><span>Job:</span> Web Developer</p>
-                        </li>
-                        <li>
-                            <p><span>Email:</span> admin@lindseyk.dev</p>
-                        </li>
-                        <li>
-                            <p><span>Skype:</span> thewifey91</p>
-                        </li>
-                    </ul>
-                    <div class="col-md-12">
-                        <button class="site-btn icon">Download Cv <i class="fa fa-download"
-                                aria-hidden="true"></i></button>
-                    </div>
-                </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="profile">
+            <div class="profile-name">
+              <span class="name">Lindsey Howard</span>
+              <br>
+              <span class="job">Full Stack Web Developer</span>
             </div>
-
-            <!-- Page Tab Container Div -->
-            <div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
-
-                <!-- Header
+            <figure class="profile-image">
+              <img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1647244082/profile-img_yuhdxb.jpg" alt="">
+            </figure>
+            <ul class="profile-information">
+              <li>
+                <p>
+                  <span>Name:</span> Lindsey Howard
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span>Birthday:</span> January 17, 1991
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span>Job:</span> Web Developer
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span>Email:</span> admin@lindseyk.dev
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span>Skype:</span> thewifey91
+                </p>
+              </li>
+            </ul>
+            <div class="col-md-12">
+              <button class="site-btn icon">Download Cv <i class="fa fa-download" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Page Tab Container Div -->
+        <div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+          <!-- Header
 ================================================== -->
+          <div class="row">
+            <header class="col-md-12">
+              <nav>
                 <div class="row">
-                    <header class="col-md-12">
-                        <nav>
-                            <div class="row">
-                                <!-- navigation bar -->
-                                <div class="col-md-8 col-sm-8 col-xs-4">
-                                    <ul class="tabs">
-                                        <li class="tab">
-                                            <a class="home-btn" href="../index.html"><i class="fa fa-home"
-                                                    aria-hidden="true"></i></a>
-                                        </li>
-                                        <li class="tab"><a href="../index.html#blog">BACK TO BLOG PAGE</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
-                                    <button class="pull-right site-btn icon hidden-xs">Hire Me <i
-                                            class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                                    <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars"
-                                            aria-hidden="true"></i></div>
-                                    <div class="hidden-md social-icons pull-right">
-                                        <a class="fb" href="https://www.facebook.com/lil.rocker.babe091"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a class="gh" href="https://www.github.com/codelikeagirl29">
-                                            <i class="fa-brands fa-github"></i>
-                                        </a>
-                                        <a class="linkedin" href="https://www.linkedin.com/in/lindsey-howard"><i
-                                                class="fa-brands fa-linkedin-in"></i></a>
-                                        <a class="so" href="https://stackoverflow.com/users/14072521/lindsey"><i
-                                                class="fa-brands fa-stack-overflow"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </header>
+                  <!-- navigation bar -->
+                  <div class="col-md-8 col-sm-8 col-xs-4">
+                    <ul class="tabs">
+                      <li class="tab">
+                        <a class="home-btn" href="../index.html">
+                          <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      <li class="tab">
+                        <a href="../index.html#blog">BACK TO BLOG PAGE</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                    <button class="pull-right site-btn icon hidden-xs">Hire Me <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    </button>
+                    <div class="hamburger pull-right hidden-lg hidden-md">
+                      <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="hidden-md social-icons pull-right">
+                      <a class="fb" href="https://www.facebook.com/lil.rocker.babe091">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                      <a class="gh" href="https://www.github.com/codelikeagirl29">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                      <a class="linkedin" href="https://www.linkedin.com/in/lindsey-howard">
+                        <i class="fa-brands ]
+                                                fa-linkedin-in"></i>
+                      </a>
+                      <a class="so" href="https://stackoverflow.com/users/14072521/lindsey">
+                        <i class="fa-brands fa-stack-overflow"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <!-- Page Content
+              </nav>
+            </header>
+          </div>
+          <!-- Page Content
 ================================================== -->
-                <div id="content" class="panel-container col-md-12">
-
-                    <!-- Blog Page
+          <div id="content" class="panel-container col-md-12">
+            <!-- Blog Page
     ================================================== -->
-                    <div id="blog-post">
-                        <div class="row">
-                            <!--Blog Post-->
-                            <div class="col-md-8 post">
-                                <div class="blog-image">
-                                    <img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1656731672/accounting-software_ssgou4.jpg"
-                                        alt="">
-                                </div>
-                                <div class="post-content">
-                                    <h1 class="blog-title bottom_30 top_30">Doing business like this takes much more
-                                        effort than doing your own business</h1>
-                                    <p>For instance, whenever I go back to the guest house during the morning to copy
+            <div id="blog-post">
+              <div class="row">
+                <!--Blog Post-->
+                <div class="col-md-8 post">
+                  <div class="blog-image">
+                    <img src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1656731672/accounting-software_ssgou4.jpg" alt="">
+                  </div>
+                  <div class="post-content">
+                    <h1 class="blog-title bottom_30 top_30">Gatsby.js Tips</h1>
+                    <p>
+                      <img class="img" src="https://res.cloudinary.com/codelikeagirl29/image/upload/v1675579300/dev-branding/gatsbyjs-intro_i3eqn2.jpg" alt="gatsbyjs_.svg">
+                    </p>
+                    <h2 id="a-tour-inside-your-gatsby-files">A Tour Inside Your <strong>Gatsby</strong> Files </h2>
+                    <h3 id="blog-title">
+                      <code>pages</code> Directory
+                    </h3>
+                    <p class="blog-post"> The  <code>/src/pages/</code> directory contains your site’s pages. Each page is a React component. For instance, your site’s home-page code is located in  <code>/pages/index.js</code> and looks like this: </p>
+                    <pre>
+																			<code>import React from &quot;react&quot;
+import { Link } from &quot;gatsby&quot;
+import Layout from &quot;../components/layout&quot;
+import Image from &quot;../components/image&quot;
+import SEO from &quot;../components/seo&quot;
+
+const IndexPage = () =&gt; (
+&lt;Layout&gt;
+  &lt;SEO title=&quot;Home&quot; /&gt;
+  &lt;h1&gt;Hi people&lt;/h1&gt;
+  &lt;p&gt;Welcome to your new Gatsby site.&lt;/p&gt;
+  &lt;p&gt;Now go build something great.&lt;/p&gt;
+  &lt;div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}&gt;
+    &lt;Image /&gt;
+  &lt;/div&gt;
+  &lt;Link to=&quot;/page-2/&quot;&gt;Go to page 2&lt;/Link&gt;
+  &lt;Link to=&quot;/using-typescript/&quot;&gt;Go to &quot;Using TypeScript&quot;&lt;/Link&gt;
+&lt;/Layout&gt;
+)
+
+export default IndexPage
+</code>
+																		</pre>
+                    <blockquote>
+                      <p>Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. … Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen. — React docs.</p>
+                    </blockquote>
+                    <p>
+                      <code>components</code> Directory The <code>/src/components/</code> directory is where you find general components for your website. The default starter comes with the following components: Header ( <code>header.js</code>), Image ( <code>image.js</code>), Layout ( <code>layout.js</code>), and SEO ( <code>seo.js</code>). You’re free to customize these components and add your own to the same directory.
+                    </p>
+                    <p>
+                      <em>Now you’re ready to start making changes to your new site and customize it to your taste.</em>
+                    </p>
+                    <h2 id="blog-title">...But How Do I Customize It?</h2>
+                    <p>Let’s have a go at modifying the message displayed on the home page. Open <code>pages/index.js</code> in your code editor and replace the two paragraphs below the <code>&lt;h1&gt;</code> tag with one of the paragraphs. &amp; just hit <em>Save</em>, &amp; you should see it in the browser immediately. Pretty cool right?? </p>
+                    <p>Gatsby makes it easy to add new pages. For instance, let’s add an About page by creating a new file, <code>about.js</code>, inside the <code>/pages/</code> directory and enter this content: </p>
+                    <pre>
+																			<code>import React from &quot;react&quot;
+
+const AboutPage = () =&gt; &lt;h1&gt;About Me&lt;/h1&gt;
+
+export default AboutPage
+</code>
+																		</pre>
+                    <p>You can quickly link to your new About page from the home page using the <strong>Gatsby Link component</strong>. To see how it works, open <code>index.js</code> in your code editor and locate this bit of code just before the <code>&lt;/Layout&gt;</code> closing tag: </p>
+                    <pre>
+																			<code>&lt;Link to=&quot;/page-2/&quot;&gt;Go to page 2&lt;/Link&gt;
+</code>
+																		</pre>
+                    <p>Gatsby uses the <strong>Link component for internal links</strong>. But keep in mind, for external links, you should use the <code>&lt;a&gt;</code> tag, like you would on a regular vanilla HTML website. </p>
+                    <h1 id="blog-title">What About Styling!?</h1>
+                    <h3 id="blog-title">Global Stylesheet</h3>
+                    <p>A familiar choice is to use a global <code>.css</code> file which contains rules that apply to the entire website. To get started, add a <code>/styles/</code> directory inside the <code>/src/</code> directory and add a <code>global.css</code> file to it: <code>/src/styles/global.css</code>. You’re free to choose any name you like both for the directory and the style-sheet file. Inside <code>global.css</code>, add the following CSS declaration, which is going to be applied to the entire website: </p>
+                    <pre>
+																			<code>body {
+  background-color: slategray;
+}
+</code>
+																		</pre>
+                    <p>Then to make it work you need to take an extra step. Open <code>gatsby-browser.js</code> in your code editor and import the stylesheet you’ve just created: <code>import &quot;./src/styles/global.css&quot;</code>
+                    </p>
+                    <h3 id="blog-title">Global Styles with a Shared Layout Component</h3>
+                    <p>Although adding a global stylesheet and importing it into <code>gatsby-browser.js</code> works just fine, the recommended way of adding global styles to your Gatsby website is by using a <strong>shared layout component</strong>. The Gatsby Default Starter comes with this component and its related style sheet out of the box. </p>
+                    <p>To see how it works, let’s delete the above import statement from <code>gatsby-browser.js</code> and save the file. You should see your website’s background revert to white. Then, open <code>layout.js</code> and <code>layout.css</code> in your code editor (you’ll find both files inside the <code>components/</code> directory). </p>
+                    <p>At the top of <code>layout.js</code>, notice the <em>import</em> statement, which makes the CSS rules contained in layout.css available to the shared Layout component and therefore to the entire website: </p>
+                    <p>
+                      <code>import &quot;./layout.css&quot;</code>
+                    </p>
+                    <p>In <code>layout.css</code>, locate the CSS declaration for the body element. It should be around line 8. This is what it looks like: </p>
+                    <pre>
+																			<code>body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: georgia, serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: &quot;kern&quot;, &quot;liga&quot;, &quot;clig&quot;, &quot;calt&quot;;
+  -ms-font-feature-settings: &quot;kern&quot;, &quot;liga&quot;, &quot;clig&quot;, &quot;calt&quot;;
+  -webkit-font-feature-settings: &quot;kern&quot;, &quot;liga&quot;, &quot;clig&quot;, &quot;calt&quot;;
+  font-feature-settings: &quot;kern&quot;, &quot;liga&quot;, &quot;clig&quot;, &quot;calt&quot;;
+}
+</code>
+																		</pre>
+                    <p>Now add a rule for the background color, something like this: <code>background-color: slategray;</code> Save your work, and you should see your website’s background color turn <em>grey</em> once again. </p>
+                    <h3 id="blog-title">Component-scoped Styles: CSS Modules </h3>
+                    <blockquote>
+                      <p>A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.</p>
+                    </blockquote>
+                    <p>With CSS modules, your styles get applied only to a specific component, which helps to keep components self-contained and therefore easy to maintain and reuse.</p>
+                    <p>CSS Modules comes bundled with Gatsby out of the box and the docs recommend this way of adding styles to Gatsby components and React components in general.</p>
+                    <p>Follow these steps to add a fancy paragraph component to your About page.</p>
+                    <h3 id="blog-title">Create the Fancy Paragraph Component </h3>
+                    <p>Inside the <code>/components/</code> directory of your Gatsby Default Starter-based project, create a file and call it <code>paragraph.js.</code>
+                    </p>
+                    <p>Open <code>paragraph.js</code> in your code editor and enter the following code: </p>
+                    <pre>
+																			<code>import React from &quot;react&quot;
+import paragraphStyles from &quot;./paragraph.module.css&quot;
+
+const Paragraph = (props) =&gt; &lt;p className={paragraphStyles.fancy}&gt;{props.paragraphText}&lt;/p&gt;
+
+export default Paragraph
+</code>
+																		</pre>
+                    <p>This is a simple React functional component — nothing new except for the statement that imports the paragraph CSS module, which we haven’t created yet. </p>
+                    <p>The component uses the styles contained in the paragraph module as a value inside the <code>className</code> property. As you can see, that value looks very much like a regular JavaScript object that uses <code>.paragraph</code>, which is the name of the class, as the <code>paragraphStyles</code> object’s property. You’ll write the styles for this class in your CSS module. </p>
+                    <h3 id="blog-title">Create the Paragraph CSS Module</h3>
+                    <p>Inside <code>/components/</code>, create another file and call it <code>paragraph.module.css</code>. Open this file and style the <code>.paragraph</code> class any way your fancy takes you. It’s just regular CSS. This is what mine looks like: </p>
+                    <pre>
+																			<code>.paragraph {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: rebeccapurple;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+}
+</code>
+																		</pre>
+                    <p>Now, you’re ready to use your <code>Paragraph</code> component with your personalized styles anywhere on your Gatsby site. </p>
+                    <p>Let’s add this paragraph to your About page.</p>
+                    <h3 id="blog-title">Add the Fancy Paragraph Component to the About Page</h3>
+                    <p>Start by adding these two import statements to your About page, just below the already existing React import:</p>
+                    <pre>
+																			<code>import Layout from &quot;../components/layout&quot;
+import Paragraph from &quot;../components/paragraph&quot;
+</code>
+																		</pre>
+                    <p>The snippet above makes the Gatsby Layout component, which you’re going to use in your About page, and the Fancy Paragraph component you’ve just created available to your About page.</p>
+                    <p>Next, modify your <code>AboutPage</code> functional component to look like this: </p>
+                    <pre>
+																			<code>const AboutPage = () =&gt; (
+&lt;Layout&gt;
+ &lt;h1&gt;About Me&lt;/h1&gt;
+ &lt;Paragraph paragraphText=&quot;Styled with CSS Modules.&quot; /&gt;
+&lt;/Layout&gt;
+)
+</code>
+																		</pre>
+                    <p>Your new component works just like any other React component. Simply slap it on the page, in the exact location you want it to appear, and you’re done. This particular component leverages React props to make the paragraph text more dynamic.</p>
+                    <p>Save your work and navigate to the About page, where you should see your fancy paragraph in all its glory.</p>
+                    <h3 id="blog-title">Component-scoped Styles: Inline Styles</h3>
+                    <p>Inline CSS styles in the form of a JS object are an additional styling option that you can use.</p>
+                    <p>Your Gatsby Default Starter-based project shows this technique in action. For instance, open <code>index.js</code> in your editor and locate this code inside the <code>IndexPage</code> component: </p>
+                    <pre>
+																			<code>&lt;div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}&gt;
+  &lt;Image /&gt;
+&lt;/div&gt;
+</code>
+																		</pre>
+                    <p>Notice how CSS styles are applied to the <code>&lt;div&gt;</code> that contains the <code>Image</code> component: styles take the form of a JS object where CSS property names are the keys and CSS values are their corresponding values. </p>
+                    <p>Also, notice how compound CSS property names remove the dash (-) symbol and use the camelCase convention instead — for example, <code>marginBottom</code>, not the CSS <code>margin-bottom</code>. </p>
+                    <h3 id="blog-title">Adding Content to Your Gatsby Site</h3>
+                    <p>Building with Gatsby comes with the added benefit of being able to grab data from virtually anywhere. As a consequence, you’re not limited to building static sites, which usually rely on Markdown, and your team can easily manage content using the back end of their choice.</p>
+                    <p>A plethora of dedicated plugins enable Gatsby to pull data from multiple sources — for example, the file system, APIs, WordPress, etc. — and combine the data in one data layer that can be fed to your website.</p>
+                    <p>For simple websites, it’s also possible to bypass Gatsby’s data layer and populate your site <a href="https://www.gatsbyjs.com/docs/using-gatsby-without-graphql/">without using GraphQL or any of the source plugins</a>. This approach, also known as the <em>
+                        <strong>unstructured data</strong>
+                      </em> approach, allows you fetch the data and use it in the <code>createPage</code> action inside the <code>createPages</code> API. Although fetching data from an API is familiar enough to JavaScript developers and therefore could be more attractive than using GraphQL, the downside is that doing away with the Gatsby data layer also means doing away with a lot of the benefits that it provides — such as performance, hot reloading during development, fast image optimization, and much more. </p>
+                    <p>Check out <a href="https://github.com/jlengstorf/gatsby-with-unstructured-data">this GitHub repo</a> if you want to know more about the unstructured data approach. </p>
+                    <h3 id="blog-title">Manually Entering GraphQL Queries into a Gatsby Page</h3>
+                    <p>If you have one or two pages with very little content that hardly changes, you can even hard-code the text straight into a Gatsby page, the way we did in the demo above.</p>
+                    <p>If you need to pull simple data like the site title and description, you can enter a GraphQL query straight into a page. To do this, it helps to become familiar with <a href="https://www.gatsbyjs.com/docs/running-queries-with-graphiql/">GraphiQL</a>, a GraphQL IDE (integrated development environment) for creating GraphQL queries that you can access on <a href="http://localhost:8000/___graphql">http://localhost:8000/___graphql</a>. </p>
+                    <p>Let’s say you want to display your site title on a page. First, make sure the title is already inside <code>gatsby-config.js</code>. Mine looks something like this; you can enter any title you prefer or leave the default one: </p>
+                    <pre>
+																			<code>module.exports = {
+  siteMetadata: {
+    title: `SitePoint Demo Gatsby Site`,
+    ...
+  },
+  ...
+</code>
+																		</pre>
+                    <p>Next, build the GraphQL query with the help of GraphiQL. Finally, make the following changes to the starter’s page 2 page ( <code>src/pages/page-2.js</code>), which should now look like this: </p>
+                    <pre>
+																			<code>const SecondPage = ({data}) =&gt; (
+  &lt;Layout&gt;
+    &lt;SEO title=&quot;Page two&quot; /&gt;
+    &lt;h1&gt;Welcome to {data.site.siteMetadata.title}&lt;/h1&gt;
+    &lt;p&gt;I have used a GraphQL query&lt;/p&gt;
+    &lt;Link to=&quot;/&quot;&gt;Go back to the homepage&lt;/Link&gt;
+  &lt;/Layout&gt;
+)
+
+export const query = graphql`
+  query testQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
+export default SecondPage
+</code>
+																		</pre>
+                    <blockquote>
+                      <p>Note that we are passing a data prop to the component, which contains the results of the GraphQL query.</p>
+                    </blockquote>
+                    <p>Restart your server, and you’ll then be able to see the site title displayed on page 2 ( <a href="http://localhost:8000/page-2/">http://localhost:8000/page-2/</a>). </p>
+                    <h2 id="blog-title">Pulling Data from the File system</h2>
+                    <p>You can use the <strong>gatsby-source-filesystem</strong> plugin to source data into your Gatsby application from your local filesystem. This approach might be familiar to people who have worked with such static site generators as Jekyll, or Hugo. </p>
+                    <p>Gatsby default starter has this plugin already installed, as you can easily verify by opening <code>gatsby-config.js</code> in your code editor: </p>
+                    <pre>
+																			<code>plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    }, ...
+</code>
+																		</pre>
+                    <p>After sourcing the data, you’ll need a transformer plugin to help you turn the file nodes into various data types that you can consume in your site — for example, <code>gatsby-transformer-json</code> for JSON data, <code>gatsby-transformer-remark</code> for Markdown files, and so on. </p>
+                    <p>Find all the details in this <a href="https://www.gatsbyjs.com/docs/sourcing-from-the-filesystem/">section of the Gatsby docs</a>. </p>
+                    <p>If you opt for <a href="https://www.gatsbyjs.com/docs/adding-markdown-pages/">Markdown files</a> as your data source for your Gatsby site, you’ll have the option of embedding JSX reusable components into the text using <code>gatsby-plugin-mdx</code>, a Gatsby plugin that adds <a href="https://mdxjs.com/">MDX</a> support to your site. Here are the benefits: </p>
+                    <blockquote>
+                      <p>This is useful in content-driven sites where you want the ability to introduce components like charts or alerts without having to configure a plugin. It emphasizes composition over configuration and really shines with interactive blog posts, documenting design systems, or long form articles with immersive or dynamic interactions. — Gatsby docs.</p>
+                    </blockquote>
+                    <h3 id="blog-title">Headless CMS</h3>
+                    <p>CMS stands for content management system. A traditional CMS offers both back-end and front-end functionality. A headless or decoupled CMS confines itself to the back end only, thereby leaving all front-end concerns to the developers’ preferences. This arrangement is ideal for a site generator like Gatsby, since it allows the content team members to still use their favorite admin interface while the developers take full advantage of the benefits of using Gatsby, React, and GraphQL.</p>
+                    <p>Popular CMS platforms like WordPress, Drupal, Contentful, Sanity, and many more, offer headless support and the Gatsby ecosystem makes available the appropriate plugins and guides to help you with the integration.</p>
+                    <p>Check out this article from the <a href="https://www.gatsbyjs.com/docs/headless-cms/">Gatsby docs</a> to learn more about pulling data from your CMS of choice. </p>
+                    <h2 id="blog-title">Deploying Your Gatsby Site</h2>
+                    <p>There are companies that make it super quick and convenient to host static websites. Among the most popular are:</p>
+                    <ul>
+                      <li>Netlify</li>
+                      <li>Amazon S3</li>
+                      <li>GitHub Pages</li>
+                      <li>Firebase Hosting</li>
+                    </ul>
+                    <h3 id="blog-title">Deploying Your Gatsby Website to Netlify</h3>
+                    <p>Let’s use Netlify to launch your brand new Gatsby website. Netlify provides “an all-in-one workflow that combines global deployment, continuous integration, and automatic HTTPS.”</p>
+                    <p>It works great for hosting static websites.</p>
+                    <p>First, you need to create a production build of your Gatsby project. To do so, enter the following command in your terminal: <code>gatsby build</code> Now you have a folder named <code>public</code> containing all the static files your website needs to run in the browser. </p>
+                    <p>The next step consists of getting your Gatsby project into a repository like GitHub. <a href="https://netlify.com">Netlify</a> supports GitHub, GitLab, or Bitbucket: each time you push changes to your code, Netlify runs a build with your chosen tool and deploys the results to its fast-loading CDN. </p>
+                    <p>To get started, just log in to Netlify, select New site from Git, choose your repository, enter your build command and the name of your public folder, then click Deploy site.</p>
+                    <p>You can review the deployment process in detail in this article on the <a href="https://www.gatsbyjs.com/docs/deploying-to-netlify/">Gatsby docs</a> website. </p>
+                    <h3 id="blog-title">Congratulations, your Gatsby website is live! 🥳</h3>
+                    <h3 id="blog-title">A Bit More on the Build Process</h3>
+                    <p>Running the build command before deployment creates a production version of your Gatsby-powered website with all the required optimizations needed for high performance and a great user experience. The static HTML pages that Gatsby creates during this process, in turn, get <a href="https://www.gatsbyjs.com/docs/glossary#hydration">rehydrated</a> into a React application. This means that, as Gatsby pages run into a web browser, JavaScript code is downloaded, thereby enabling DOM manipulation etc. In other words, your site becomes a full-blown React app. </p>
+                    <p>You can read the details on the <a href="https://www.gatsbyjs.com/docs/overview-of-the-gatsby-build-process/">Gatsby docs</a>. </p>
+                    <hr>
+                    <!-- <p>For instance, whenever I go back to the guest house during the morning to copy
                                         out the contract, these gentlemen are always still sitting there eating their
-                                        breakfasts. </p>
-                                    <br>
-                                    <p>I ought to just try that witht my boss; I'd get kicked out on the spot. But who
+                                        breakfasts. </p><br><p>I ought to just try that witht my boss; I'd get kicked out on the spot. But who
                                         knows, maybe that would be the best thing for me. He'd fall right off his desk!
                                         And it's a funny sort of business to be sitting up there at your desk, talking
-                                        down at your subordinates. </p>
-                                    <br>
-                                    <blockquote>"Oh, God", he thought, "what a strenuous career it is that I've chosen!
-                                        Travelling day in and day out.” </blockquote>
-                                    <br>
-                                    <p>Doing business like this takes much more effort than doing your own business at
+                                        down at your subordinates. </p><br><blockquote>"Oh, God", he thought, "what a strenuous career it is that I've chosen!
+                                        Travelling day in and day out.” </blockquote><br><p>Doing business like this takes much more effort than doing your own business at
                                         home, and on top of that there's the curse of travelling, worries about making
                                         train connections, bad and irregular food, contact with different people all the
                                         time so that you can never get to know anyone or become friendly with them. It
-                                        can all go to Hell!</p>
-                                    <br>
-                                    <p>His room, a proper human room although a little too small, lay peacefully between
+                                        can all go to Hell!</p><br><p>His room, a proper human room although a little too small, lay peacefully between
                                         its four familiar walls. A collection of textile samples lay spread out on the
                                         table - Samsa was a travelling salesman - and above it there hung a picture that
                                         he had recently cut out of an illustrated magazine and housed in a nice, gilded
                                         frame. It showed a lady fitted out with a fur hat and fur boa who sat upright,
                                         raising a heavy fur muff that covered the whole of her lower arm towards the
-                                        viewer.</p>
-                                </div>
-                                <div class="tags top_30">
-                                    <span>Tags:</span>
-                                    <a href="#">web,</a>
-                                    <a href="#">interface,</a>
-                                    <a href="#">design,</a>
-                                    <a href="#">photoshop,</a>
-                                    <a href="#">creative,</a>
-                                    <a href="#">portfolio</a>
-                                </div>
-                                <!-- Related Post -->
-                                <div class="post-list">
-                                    <div class="section-title bottom_15 top_60"><span></span>
-                                        <h2>Related Posts</h2>
-                                    </div>
-                                    <ul>
-                                        <!-- a post -->
-                                        <li>
-                                            <a href="#">
-                                                <div class="info">Web Design <span>April 14, 17</span></div>
-                                                <p class="little-text">Gregor then turned to look out the window at the
-                                                    dull weather</p>
-                                            </a>
-                                        </li>
-                                        <!-- a post -->
-                                        <li>
-                                            <a href="#">
-                                                <div class="info">Photography <span>April 14, 17</span></div>
-                                                <p class="little-text">Doing business like this takes much more effort
-                                                    than doing your own business at home</p>
-                                            </a>
-                                        </li>
-                                        <!-- a post -->
-                                        <li>
-                                            <a href="#">
-                                                <div class="info">Development <span>April 14, 17</span></div>
-                                                <p class="little-text">Ask especially collecting terminated may son
-                                                    expression extremely!</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- Post Comments -->
-                                <div class="post-comment">
-                                    <div class="section-title bottom_30 top_60"><span></span>
-                                        <h2>Post Comments</h2>
-                                    </div>
-                                    <ul>
-                                        <!-- a comment -->
-
-                                        <!-- a comment -->
-                                        <li>
-                                            <div class="row">
-                                                <div class="col-md-2 col-sm-2 col-xs-3 person-img">
-                                                    <img src="../images/person.jpg" alt="">
-                                                </div>
-                                                <div class="col-md-10 col-sm-10 col-xs-9 comment-content">
-                                                    <div class="name">Sasha McClanahan</div>
-                                                    <span class="date">Aug 26, 2019/span>
-                                                        <p>He must have tried it a hundred times, shut his eyes so that
-                                                            he
-                                                            wouldn't have to look at the floundering legs.</p>
-                                                        <a href="#"><i class="fa fa-reply"
-                                                                aria-hidden="true"></i>Reply</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="leave-comment">
-                                    <div class="section-title bottom_30 top_60"><span></span>
-                                        <h2>Leave a Comment</h2>
-                                    </div>
-                                    <form class="site-form">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <input class="site-input" type="input" name="" placeholder="Name">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input class="site-input" type="input" name="" placeholder="E-mail">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <textarea class="site-area" placeholder="Message"></textarea>
-                                            </div>
-                                            <div class="col-md-12 top_15 bottom_30">
-                                                <button class="site-btn" type="submit">Submit</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div> <!-- post end -->
-                            <!--Sidebar-->
-                            <div class="col-md-4 blog-sidebar">
-                                <!-- Category List -->
-                                <div class="category">
-                                    <div class="section-title bottom_15 top_15"><span></span>
-                                        <h3>Categories</h3>
-                                    </div>
-                                    <ul class="category-list">
-                                        <li><a href="#">Web design</a><span>11</span></li>
-                                        <li><a href="#">Development</a><span>12</span></li>
-                                        <li><a href="#">Photography</a><span>16</span></li>
-                                        <li><a href="#">Branding</a><span>16</span></li>
-                                        <li><a href="#">Other</a><span>16</span></li>
-                                    </ul>
-                                </div>
-                                <!-- Popular Post -->
-                                <div class="post-list">
-                                    <div class="section-title bottom_15 top_60"><span></span>
-                                        <h3>Related Posts</h3>
-                                    </div>
-                                    <ul>
-                                        <!-- a post -->
-                                        <li>
-                                            <a href="https://skillcrush.com/blog/how-to-become-a-full-stack-developer/">
-                                                <div class="info">Development <span>Oct 21, 19</span></div>
-                                                <p class="little-text">How to
-                                                    a full stack developer?
-
-                                                </p>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                                <!-- Advertisement 
-                                <div class="advertisement">
-                                    <div class="section-title bottom_30 top_60"><span></span>
-                                        <h3>Advertisement</h3>
-                                    </div>
-
-                                    <img src="../images/image.jpg" alt="">
-                                </div>
-                            -->
-                            </div>
+                                        viewer.</p> -->
+                  </div>
+                  <div class="tags top_30">
+                    <span>Tags:</span>
+                    <a href="#">web,</a>
+                    <a href="#">ui/ux,</a>
+                    <a href="#">design,</a>
+                    <a href="#">templates,</a>
+                    <a href="#">creative,</a>
+                    <a href="#">portfolio</a>
+                  </div>
+                  <!-- Related Post -->
+                  <div class="post-list">
+                    <div class="section-title bottom_15 top_60">
+                      <span></span>
+                      <h2>Related Posts</h2>
+                    </div>
+                    <ul>
+                      <!-- a post -->
+                      <li>
+                        <a href="#">
+                          <div class="info">Web Design <span>April 14, 17</span>
+                          </div>
+                          <p class="little-text">My favorite design templates of all time</p>
+                        </a>
+                      </li>
+                      <!-- a post -->
+                      <li>
+                        <a href="#">
+                          <div class="info">Development <span>May 14, 2022</span>
+                          </div>
+                          <p class="little-text">How to prepare for my Certifications?</p>
+                        </a>
+                      </li>
+                      <!-- a post -->
+                      <li>
+                        <a href="#">
+                          <div class="info">Development <span>April 14, 2022</span>
+                          </div>
+                          <p class="little-text">Frontend Dev Toolkit</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Post Comments -->
+                  <div class="post-comment">
+                    <div class="section-title bottom_30 top_60">
+                      <span></span>
+                      <h2>Post Comments</h2>
+                    </div>
+                    <ul>
+                      <!-- a comment -->
+                      <!-- a comment -->
+                      <li>
+                        <div class="row">
+                          <div class="col-md-2 col-sm-2 col-xs-3 person-img">
+                            <img src="../images/person.jpg" alt="">
+                          </div>
+                          <div class="col-md-10 col-sm-10 col-xs-9 comment-content">
+                            <div class="name">Sasha McClanahan</div>
+                            <span class="date">Aug 26, 2019</span>
+                            <p>He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs.</p>
+                            <a href="#">
+                              <i class="fa fa-reply" aria-hidden="true"></i>Reply </a>
+                          </div>
                         </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="leave-comment">
+                    <div class="section-title bottom_30 top_60">
+                      <span></span>
+                      <h2>Leave a Comment</h2>
                     </div>
-
-                </div><!-- Content - End -->
-
-                <!-- Footer
+                    <form class="site-form">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input class="site-input" type="input" name="" placeholder="Name">
+                        </div>
+                        <div class="col-md-6">
+                          <input class="site-input" type="input" name="" placeholder="E-mail">
+                        </div>
+                        <div class="col-md-12">
+                          <textarea class="site-area" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-md-12 top_15 bottom_30">
+                          <button class="site-btn" type="submit">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- post end -->
+                <!--Sidebar-->
+                <div class="col-md-4 blog-sidebar">
+                  <!-- Category List -->
+                  <div class="category">
+                    <div class="section-title bottom_15 top_15">
+                      <span></span>
+                      <h3>Categories</h3>
+                    </div>
+                    <ul class="category-list">
+                      <li>
+                        <a href="#">Web design</a>
+                        <span>11</span>
+                      </li>
+                      <li>
+                        <a href="#">Development</a>
+                        <span>12</span>
+                      </li>
+                      <li>
+                        <a href="#">Photography</a>
+                        <span>16</span>
+                      </li>
+                      <li>
+                        <a href="#">Branding</a>
+                        <span>16</span>
+                      </li>
+                      <li>
+                        <a href="#">Other</a>
+                        <span>16</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Popular Post -->
+                  <div class="post-list">
+                    <div class="section-title bottom_15 top_60">
+                      <span></span>
+                      <h3>Related Posts</h3>
+                    </div>
+                    <ul>
+                      <!-- a post -->
+                      <li>
+                        <a href="https://skillcrush.com/blog/how-to-become-a-full-stack-developer/">
+                          <div class="info">Development <span>Oct 21, 19</span>
+                          </div>
+                          <p class="little-text">How to a full stack developer? </p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Advertisement 
+                                <div class="advertisement"><div class="section-title bottom_30 top_60"><span></span><h3>Advertisement</h3></div><img src="../images/image.jpg" alt=""></div>
+                            -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content - End -->
+          <!-- Footer
 ================================================== -->
-                <footer>
-                    <div class="footer col-md-12 top_30 bottom_30">
-                        <div class="name col-md-4 hidden-md hidden-sm
+          <footer>
+            <div class="footer col-md-12 top_30 bottom_30">
+              <div class="name col-md-4 hidden-md hidden-sm
                         hidden-xs">Lindsey Howard.</div>
-                        <div class="copyright col-md-8">© 2022 All rights reserved. Designed by <a
-                                href="https://lindseyk.dev">lindseyk</a> </div>
-                    </div>
-                </footer>
-
-            </div> <!-- Tab Container - End -->
-        </div> <!-- Row - End -->
-    </div> <!-- Wrapper - End -->
-
+              <div class="copyright col-md-8">© 2022 All rights reserved. Designed by <a href="https://lindseyk.dev">lindseyk</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <!-- Tab Container - End -->
+      </div>
+      <!-- Row - End -->
+    </div>
+    <!-- Wrapper - End -->
     <!-- Javascript
 ================================================== -->
     <script src="../js/jquery-2.1.4.min.js"></script>
@@ -333,6 +600,5 @@
     <script src="../js/jquery.cookie-1.4.1.min.js"></script>
     <script src="../js/subpage-demo.js"></script>
     <link rel="stylesheet" href="../css/Demo.min.css" />
-
-</body>
+  </body>
 </html>

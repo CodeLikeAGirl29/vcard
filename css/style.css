@@ -22,6 +22,23 @@
 	width: 100%;
 }
 
+pre code {
+  display: block;
+  background: none;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+}
+
+.fa-circle {
+	color: #0fb198;
+	display: block;
+	margin-right: 1rem;
+}
+
 .hover-img * {
 	box-sizing: border-box;
 	transition: all 0.45s ease;
@@ -84,6 +101,31 @@
 
 .hover-img:hover figcaption {
 	opacity: 1;
+}
+
+.img {
+	height: auto;
+	width: 560px;
+}
+
+.blog-post {
+	padding: 20px;
+	line-height: 1.2;
+}
+
+#a-tour-inside-your-gatsby-files {
+	padding: 25px;
+	font-size: 2.1rem;
+}
+
+#pages-directory {
+font-size: 1.3rem;
+border-bottom: solid 1px maroon;
+}
+
+code {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
 }
 
 /**
@@ -174,10 +216,18 @@ html {
 	width: 90px;
 }
 
-.blog-title {
-	font-size: 26px;
+.blog-title,
+#blog-title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1rem;
 	font-weight: bold;
-	line-height: 30px;
+	line-height: 1.2;
+}
+
+.blog-2 {
+color: #15db95;
+text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
 }
 
 .page-title i {
@@ -665,34 +715,39 @@ header nav .site-btn {
 .social-icons a {
 	color: #000;
 	font-size: 12px;
-	transition: all ease 0.2s;
+	transition: all ease 0.3s;
 	width: 24px;
 	height: 18px;
 	display: inline-block;
 }
 
 .social-icons a:hover {
-	font-size: 14px;
+	font-size: 1rem;
 }
 
 .fb:hover {
 	color: #3b5998 !important;
-	transition: all ease 0.2s;
+	transition: all ease 0.3s;
 }
 
 .gh:hover {
 	color: #55acee !important;
-	transition: all ease 0.2s;
+	transition: all ease 0.3s;
 }
 
-.cp:hover {
-	color: #cd486b !important;
-	transition: all ease 0.2s;
+.so:hover {
+	color: #f48024 !important;
+	transition: all ease 0.3s;
 }
 
 .linkedin:hover {
 	color: #1769ff !important;
-	transition: all ease 0.2s;
+	transition: all ease 0.3s;
+}
+
+.dr:hover {
+	color: #ea4c89 !important;
+	transition: all ease 0.3s;
 }
 
 header nav .menuout {
