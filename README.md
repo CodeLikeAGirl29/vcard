@@ -4,6 +4,8 @@ Created by [lindsey](https://lindseyk.dev)
 
 Heres the [live link](https://linds-vcard.netlify.app/) to the project.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/vcard/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/vcard)
+
 [![Netlify
 Status](https://api.netlify.com/api/v1/badges/1207879a-f910-465e-add0-4a1d879561db/deploy-status)](https://app.netlify.com/sites/linds-vcard/deploys)
 
