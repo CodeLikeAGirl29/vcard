@@ -4,9 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Londrina+Shadow");
 
-@import url("css/clear.css");
-@import url("css/owl.carousel.css");
-@import url("css/owl.theme.css");
+@import url("clear.css");
+@import url("owl.carousel.css");
+@import url("owl.theme.css");
 
 /* these are my custom styles */
 .hover-img {
@@ -23,14 +23,14 @@
 }
 
 pre code {
-  display: block;
-  background: none;
-  white-space: pre;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: scroll;
-  max-width: 100%;
-  min-width: 100px;
-  padding: 0;
+	display: block;
+	background: none;
+	white-space: pre;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: scroll;
+	max-width: 100%;
+	min-width: 100px;
+	padding: 0;
 }
 
 .fa-circle {
@@ -118,12 +118,12 @@ pre code {
 }
 
 #pages-directory {
-font-size: 1.3rem;
-border-bottom: solid 1px maroon;
+	font-size: 1.3rem;
+	border-bottom: solid 1px maroon;
 }
 
 code {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 0.9rem;
 }
 
@@ -183,21 +183,21 @@ html {
 
 .six h1:before {
 	position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 60px;
-  height: 2px;
-  content: "";
-  background-color: #c50000;
+	left: 0;
+	bottom: 0;
+	width: 60px;
+	height: 2px;
+	content: "";
+	background-color: #c50000;
 }
 
 .six h1 span {
 	font-size: 13px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding-left: 0.25em;
-  color: rgba(0, 0, 0, 0.4);
-  padding-bottom: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-left: 0.25em;
+	color: rgba(0, 0, 0, 0.4);
+	padding-bottom: 10px;
 	/* line-height: 2em;
 	padding-bottom: 15px;
 	text-transform: none;
@@ -240,16 +240,15 @@ html {
 
 .blog-title,
 #blog-title {
-	font-family: 'PT Sans', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 1rem;
 	font-weight: bold;
 	line-height: 1.2;
 }
 
 .blog-2 {
-color: #15db95;
-text-shadow: 1px 1px 1px rgb(0, 0, 0);
-
+	color: #15db95;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .page-title i {
