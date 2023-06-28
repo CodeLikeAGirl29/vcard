@@ -3553,7 +3553,7 @@ if (typeof Object.create !== 'function') {
                 t.updateLeft();
             }
         });
-    };
+    }
 
     InitSlider.prototype.updateLeft = function() {
         var t = this;
