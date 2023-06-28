@@ -74,7 +74,6 @@ pre code {
 	left: 0;
 	right: 0;
 	align-items: center;
-	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -159,7 +158,6 @@ code {
 
 body {
 	font-family: "Eczar", serif;
-	background: #fafafa;
 	overflow-x: hidden;
 	position: relative;
 	background: url(../images/bg.png) #fafafa;
@@ -178,7 +176,6 @@ html {
 
 .six h1 {
 	text-align: center;
-	color: #222;
 	font-size: 2rem;
 	font-weight: 400;
 	color: #15db95;
@@ -630,7 +627,7 @@ ul.profile-information li:first-child {
 }
 
 ul.profile-information li:first-child img {
-	margin: -44px -44px;
+	margin: -44px;
 	display: inline-block;
 	position: absolute;
 	width: 25px;
@@ -716,7 +713,6 @@ header nav a.home-btn {
 	padding: 0px 24px;
 	float: left;
 	height: 70px;
-	line-height: 70px;
 	margin-right: 10px;
 	transition: all ease 0.4s;
 	line-height: 77px;
@@ -817,7 +813,6 @@ section.graybg {
 
 .clients .client {
 	background: #fff;
-	padding: 18px;
 	border-radius: 8px;
 	box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
 	width: 100%;
@@ -1012,7 +1007,7 @@ hr:after {
 	display: flex;
 	align-items: center;
 	width: 33%;
-	margin: 1% 7% 1% 7%;
+	margin: 1% 7%;
 }
 
 #image-subtitle {
@@ -1213,7 +1208,6 @@ hr:after {
 	padding: 17px 0 16px;
 	min-width: 50px;
 	border-radius: 50px;
-	text-align: center;
 	transition: all ease 0.3s;
 	text-align: center;
 	background: rgba(3, 122, 249, 0.8);
@@ -1657,7 +1651,7 @@ hr:after {
 .owl-theme .owl-controls .owl-page span {
 	width: 10px;
 	height: 10px;
-	margin: 5px 5px;
+	margin: 5px;
 }
 
 .owl-theme .owl-controls {
@@ -2098,7 +2092,6 @@ footer .footer .copyright a:hover {
 	}
 
 	.profile-image {
-		margin-top: -18px;
 		-webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
 		clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
 		margin-top: -40px;

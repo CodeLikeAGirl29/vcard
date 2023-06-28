@@ -735,7 +735,7 @@
     padding: 0 13px;
     position: relative;
     overflow: visible;
-    margin: 0 4px 10px 4px;
+    margin: 0 4px 10px;
     display: inline-block;
     color: #888888;
     -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, border .3s ease-in-out;
@@ -769,7 +769,7 @@
     padding: 0 14px;
     position: relative;
     overflow: visible;
-    margin: 0 3px 10px 3px;
+    margin: 0 3px 10px;
     border: 1px solid #E4E2E2;
     text-transform: uppercase;
     display: inline-block;
@@ -803,7 +803,7 @@
     color: #888888;
     cursor: pointer;
     font: 400 12px/32px "Open Sans", sans-serif;
-    margin: 0 5px 10px 5px;
+    margin: 0 5px 10px;
     overflow: visible;
     padding: 0 17px;
     position: relative;
@@ -840,7 +840,7 @@
     color: #888888;
     cursor: pointer;
     font: 400 12px/32px "Roboto", sans-serif;
-    margin: 0 5px 10px 5px;
+    margin: 0 5px 10px;
     overflow: visible;
     padding: 0 17px;
     position: relative;
@@ -1002,7 +1002,7 @@
     color: #888;
     cursor: pointer;
     font: 600 11px/37px "Open Sans", sans-serif;
-    margin: 0 3px 15px 3px;
+    margin: 0 3px 15px;
     overflow: visible;
     padding: 0 16px;
     position: relative;
@@ -1038,7 +1038,7 @@
     color: #444;
     cursor: pointer;
     font: 400 15px/22px "Roboto", sans-serif;
-    margin: 0 8px 10px 8px;
+    margin: 0 8px 10px;
     padding: 10px 23px;
     position: relative;
     display: inline-block;
@@ -1108,7 +1108,7 @@
     padding: 8px 10px;
     position: relative;
     overflow: visible;
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 10px;
     display: inline-block;
     color: #787878;
     -webkit-transition: color .25s ease-in-out, border-color .25s ease-in-out;
@@ -2625,7 +2625,7 @@
 .cbp-l-project-details-title span {
   border-bottom: 1px solid #747474;
   display: inline-block;
-  margin: 0 0 -1px 0;
+  margin: 0 0 -1px;
   font: 400 16px/36px "Open Sans", sans-serif;
   padding: 0 5px 0 0; }
 
@@ -2707,7 +2707,6 @@
   margin-top: 20px; }
 
 .cbp-l-member-img img {
-  border: 1px solid #e2e2e2;
   width: auto;
   max-width: 100%;
   height: auto;
