@@ -113,32 +113,32 @@ pre code {
 }
 
 .list {
-  margin: 0;
-  padding-left: 1.2rem;
-  margin-top: 20px;
+	margin: 0;
+	padding-left: 1.2rem;
+	margin-top: 20px;
 }
 
 .list li {
-  position: relative;
-  list-style-type: none;
-  padding-left: 2rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.1;
+	position: relative;
+	list-style-type: none;
+	padding-left: 2rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.1;
 }
 
 .list li::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 5px;
-  width: 5px;
-  height: 11px;
-  border-width: 0 2px 2px 0;
-  border-style: solid;
-  border-color: #fa3343;
-  transform-origin: bottom left;
-  transform: rotate(45deg);
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 5px;
+	height: 11px;
+	border-width: 0 2px 2px 0;
+	border-style: solid;
+	border-color: #fa3343;
+	transform-origin: bottom left;
+	transform: rotate(45deg);
 }
 
 #a-tour-inside-your-gatsby-files {
@@ -160,7 +160,7 @@ code {
 
 /* Table of Content
 ==================================================
-	
+
 	1. Body and Core Css
 	2. Profile Section
 	3. Navigation
@@ -171,7 +171,7 @@ code {
     8. Testimonial Section
     9. Contact Section
     10. Footer Section
-    11. Realtor Portfolio 
+    11. Realtor Portfolio
     12. Photo Gallery Widgets
     13. Table Widget
     14. Pricing Widget
@@ -868,6 +868,7 @@ section.graybg {
 	padding: 17px;
 	box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
 	min-height: 196px;
+	margin-top: 2rem;
 }
 
 /*------------------------ 5 Resume Section ------------------------*/
