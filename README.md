@@ -11,12 +11,33 @@ Status](https://api.netlify.com/api/v1/badges/1207879a-f910-465e-add0-4a1d879561
 
 ![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-![javascript](https://camo.githubusercontent.com/3aaee8bf7885dcf0cea8a5647c4514b7d800b1a730d38bce7dadf6bff883378d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4a61766153637269707426636f6c6f723d323232323232266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d463744463145266c6162656c3d)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-![css](https://camo.githubusercontent.com/9fe0ddca8c80fd49703246ca3b9a894ddfdc9c1c80f6ab5de92bbe91471dbab8/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4353533326636f6c6f723d313537324236266c6f676f3d43535333266c6f676f436f6c6f723d464646464646266c6162656c3d)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
- 
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Stormy Black | ![#4c4c4c](https://via.placeholder.com/10/4c4c4c?text=+) #4c4c4c |
+| Sorta Seafoam | ![#15db95](https://via.placeholder.com/10/15db95?text=+) #15db95 |
+| Kinda Coral | ![#ff5a14](https://via.placeholder.com/10/ff5a14?text=+) #ff5a14 |
+| Sorta Sunny | ![#ffc500](https://via.placeholder.com/10/ffc500?text=+) #ffc500 |
+| Really Blue | ![#A7C7E7](https://via.placeholder.com/10/A7C7E7?text=+) #A7C7E7 |
+| Not Pink | ![#f62459](https://via.placeholder.com/10/f62459?text=+) #f62459 |
+
  ## Screenshot
 
  ![screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1675455359/projects/Lindseys-Resume-CV_covoa0.png)
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Stormy Black | ![#4c4c4c](https://via.placeholder.com/10/4c4c4c?text=+) #4c4c4c |
+| Sorta Seafoam | ![#15db95](https://via.placeholder.com/10/15db95?text=+) #15db95 |
+| Kinda Coral | ![#ff5a14](https://via.placeholder.com/10/ff5a14?text=+) #ff5a14 |
+| Sorta Sunny | ![#ffc500](https://via.placeholder.com/10/ffc500?text=+) #ffc500 |
+| Really Blue | ![#A7C7E7](https://via.placeholder.com/10/A7C7E7?text=+) #A7C7E7 |
+| Not Pink | ![#f62459](https://via.placeholder.com/10/f62459?text=+) #f62459 |
