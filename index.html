@@ -23,10 +23,23 @@
     <link rel="stylesheet" href="css/owl.carousel.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link
-      rel="stylesheet" href="css/colors/mint.css" id="color"/>
+      rel="stylesheet" href="css/colors/blue.css" id="color"/>
     <!-- Google Web fonts
       ================================================== -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+ 		<!-- Google Web fonts
+          ================================================== -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+			rel="stylesheet"
+		/>
     <link
       href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet"/>
     <!-- Font Icons
@@ -42,6 +55,9 @@
     <![endif]-->
     <!-- Slick Slider JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
   </head>
   <body>
     <!-- Preloading -->
@@ -185,7 +201,7 @@
               <!-- Text Section -->
               <div class="row">
                 <section class="about-me line col-md-12 padding_30
-                  padbot_45">
+                  padbot_45" data-aos="zoom-in">
                   <div class="section-title">
                     <span></span>
                     <h2 class="font-sans">About Me</h2>
@@ -748,7 +764,7 @@
               <p class="little-text">
               Working from home doesn't have to be boring!
               </p>
-              <span class="date">27 Jan 2023</span>
+              <span class="date">27 Jan 2024</span>
               </div>
               </a>
               </div>
@@ -944,7 +960,7 @@
                 Lindsey Howard.
               </div>
               <div class="copyright col-lg-8 col-md-12">
-                &copy; 2023
+                &copy; 2024
                 <i class="fa-solid fa-code"></i>
                 with
                 <i class="fa-solid fa-heart"></i>
@@ -972,6 +988,15 @@
     <script src="js/jquery.cookie-1.4.1.min.js"></script>
     <script src="js/Demo.js"></script>
     <link rel="stylesheet" href="css/Demo.min.css"/>
+    <script>
+  $(document).on('ready', function () {
+    // initialization of aos
+    AOS.init({
+      duration: 650,
+      once: true
+    });
+  });
+</script>
   </body>
 </html>
 </body>

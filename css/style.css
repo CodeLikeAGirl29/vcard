@@ -3,6 +3,7 @@
 /*---------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Londrina+Shadow");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 @import url("clear.css");
 @import url("owl.carousel.css");
@@ -11,7 +12,7 @@
 /* these are my custom styles */
 .hover-img {
 	background-color: #000;
-	color: #fff;
+	color: ghostwhite;
 	display: inline-block;
 	margin: 8px;
 	max-width: 320px;
@@ -27,10 +28,11 @@ pre code {
 	background: none;
 	white-space: pre;
 	-webkit-overflow-scrolling: touch;
-	overflow-x: scroll;
 	max-width: 100%;
 	min-width: 100px;
 	padding: 0;
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .fa-circle {
@@ -114,7 +116,7 @@ pre code {
 
 .list {
 	margin: 0;
-	padding-left: 1.2rem;
+	padding: 1rem;
 	margin-top: 20px;
 }
 
@@ -131,7 +133,7 @@ pre code {
 	display: block;
 	position: absolute;
 	left: 0;
-	top: 5px;
+	top: 9px;
 	width: 5px;
 	height: 11px;
 	border-width: 0 2px 2px 0;
@@ -142,7 +144,7 @@ pre code {
 }
 
 #a-tour-inside-your-gatsby-files {
-	padding: 25px;
+	padding: 25px;.list
 	font-size: 2.1rem;
 }
 
@@ -154,6 +156,7 @@ pre code {
 code {
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.9rem;
+  overflow: hidden;
 }
 
 /**
@@ -268,16 +271,68 @@ html {
 }
 
 .blog-title,
-#blog-title {
+#blog-title,
+#head-blog-title {
 	font-family: "PT Sans", sans-serif;
-	font-size: 1rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	line-height: 1.2;
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px;
 }
 
 .blog-2 {
 	color: #15db95;
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.seperator {
+  margin-bottom: 30px;
+  width: 35px;
+  height: 3px;
+  background: #15db95;
+  border: none;
+}
+
+.title .row {
+  padding: 50px 0 0;
+}
+
+.title h1,
+.heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  text-align: center;
+  padding: 22px;
+
+}
+
+.title .seperator {
+  margin: 0 auto 10px;
+}
+
+.page-content {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.code-block {
+   -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+    overflow-x: hidden;
+  overflow: hidden;
+
+}
+
+.code-block::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .page-title i {
@@ -306,6 +361,7 @@ html {
 	font-size: 18px;
 	font-weight: 600;
 	position: relative;
+
 }
 
 .section-title span {
@@ -355,7 +411,7 @@ html {
 
 .site-btn.icon i {
 	color: #000;
-	background: #fff;
+	background: ghostwhite;
 	margin-left: 15px;
 	border-radius: 50px;
 	font-size: 0.688rem;
@@ -368,7 +424,7 @@ html {
 }
 
 #content {
-	background: #fff;
+	background: ghostwhite;
 	box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
 	-webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
 	-moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
@@ -396,12 +452,16 @@ h1 {
 	font-family: "Poppins", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 500;
+  background: #B2D8D8;
+background: linear-gradient(to right, #B2D8D8 0%, #004C4C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 h2 {
-	font-family: "Poppins", sans-serif;
 	font-size: 2.188rem;
 	font-weight: 500;
+
 }
 
 h3 {
@@ -423,6 +483,7 @@ h6 {
 	font-size: 1.25rem;
 	font-weight: 500;
 }
+
 
 /* Margins & Paddings */
 
@@ -517,7 +578,7 @@ h6 {
 /*Spinner*/
 
 #preloader {
-	background-color: #fff;
+	background-color: ghostwhite;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -565,7 +626,7 @@ h6 {
 /*------------------------ 2 Profile Section ------------------------*/
 
 .profile {
-	background: #fff;
+	background: ghostwhite;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -601,6 +662,12 @@ h6 {
 
 .profile-image img {
 	width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 ul.profile-information {
@@ -639,7 +706,7 @@ ul.profile-information li:before {
 	margin-left: -25px;
 	margin-top: 2px;
 	font-weight: 400;
-	background: #fff;
+	background: ghostwhite;
 	display: block;
 	position: absolute;
 }
@@ -693,10 +760,72 @@ ul.profile-information li:first-child:after {
 	display: block;
 }
 
+.list {
+  margin: 0;
+  padding-left: 1.2rem;
+  margin-top: 20px;
+}
+
+.list li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #fa3343;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+p.text {
+  position: relative;
+  text-align: left;
+  margin: -4px 0 1px;
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: 200;
+font-family: 'Kanit', sans-serif;
+}
+
+.images-container {
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+
+.images {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
 /*------------------------ 3 Navigation ------------------------*/
 
 header nav {
-	background: #fff;
+	background: ghostwhite;
 	display: inline-block;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -734,7 +863,7 @@ header nav ul li a:after {
 }
 
 header nav a.home-btn {
-	color: #fff;
+	color: ghostwhite;
 	border-radius: 6px 0 0 6px;
 	-webkit-border-radius: 6px 0 0 6px;
 	-moz-border-radius: 6px 0 0 6px;
@@ -840,7 +969,7 @@ section.graybg {
 }
 
 .clients .client {
-	background: #fff;
+	background: ghostwhite;
 	border-radius: 8px;
 	box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
 	width: 100%;
@@ -861,7 +990,7 @@ section.graybg {
 }
 
 .service {
-	background: #fff;
+	background: ghostwhite;
 	border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -894,7 +1023,7 @@ ul.timeline {
 	font-size: 0.5rem;
 	margin-left: -35px;
 	font-weight: 400;
-	background: #fff;
+	background: ghostwhite;
 	display: block;
 	position: absolute;
 	margin-top: -1px;
@@ -921,7 +1050,7 @@ ul.timeline {
 	padding: 18px 16px;
 	border-radius: 30px;
 	margin: -13px -45px;
-	background: #fff;
+	background: ghostwhite;
 	width: 53px;
 	text-align: center;
 }
@@ -1233,7 +1362,7 @@ hr:after {
 }
 
 #portfolio .cbp-item figure .icon i {
-	color: #fff;
+	color: ghostwhite;
 	padding: 17px 0 16px;
 	min-width: 50px;
 	border-radius: 50px;
@@ -1279,7 +1408,7 @@ hr:after {
 }
 
 .cbp-popup-singlePage .cbp-popup-navigation-wrap {
-	background-color: #fff;
+	background-color: ghostwhite;
 	box-shadow: -5px 10px 12px -10px rgba(201, 201, 201, 0.3);
 }
 
@@ -1417,6 +1546,51 @@ hr:after {
 	color: #000;
 	line-height: 20px;
 	padding: 2px 0 4px;
+}
+
+.blog-quote {
+  line-height: 4px;
+  padding: 0 0 50px;
+  border-left: 3px solid #5f5f5f;
+  margin: 0 0 0 25px;
+}
+
+.blog-quote p {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: -0.02em;
+  color: #5f5f5f;
+  margin: 22px 0 0 30px;
+  top: -4px;
+  width: 100%;
+  line-height: 1;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.blog-quote p span {
+  color: #5f5f5f;
+  -webkit-text-stroke: 1px #5f5f5f;
+  text-stroke: 1px #5f5f5f;
+  text-shadow: none;
+}
+
+p.text {
+  position: relative;
+  text-align: left;
+  margin: 24px 0 14px;
+  font-size: 1rem;
+  line-height: 1.1;
+  font-weight: 200;
 }
 
 /*Blog Detail Page */
@@ -1707,9 +1881,8 @@ hr:after {
 /*------------------------ 10 Footer ------------------------*/
 
 footer .footer {
-	background: #1e1e1e;
 	min-height: 70px;
-	color: #fff;
+	color: #1e1e1e;
 	border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -1717,7 +1890,7 @@ footer .footer {
 }
 
 footer .footer .name {
-	color: #fff;
+	color: #1e1e1e;
 	font-size: 15px;
 }
 
@@ -1728,12 +1901,20 @@ footer .footer .copyright {
 }
 
 footer .footer .copyright a {
-	color: #fff;
+	color: #1e1e1e;
 }
 
 footer .footer .copyright a:hover {
-	color: #dfdfdf;
+	color: #1e1e1e;
 	transition: all ease 0.3s;
+}
+
+.fa-heart {
+  color: darkred;
+}
+
+.fa-code {
+  color: #A7C7E7;
 }
 
 /*------------------------ 11 Realtor Portfolio ------------------------*/
@@ -1782,7 +1963,7 @@ footer .footer .copyright a:hover {
 	position: absolute;
 	top: 0;
 	margin: 10px;
-	color: #fff;
+	color: ghostwhite;
 	padding: 4px 7px;
 	background: #00000094;
 	border-radius: 2px;
@@ -1794,7 +1975,7 @@ footer .footer .copyright a:hover {
 	font-size: 15px;
 	position: absolute;
 	bottom: 0;
-	color: #fff;
+	color: ghostwhite;
 	margin: 10px;
 	padding: 3px 12px;
 	border-radius: 2px;
@@ -2151,7 +2332,7 @@ footer .footer .copyright a:hover {
 
 	header nav .menuout .menuin {
 		width: 100%;
-		background: #fff;
+		background: ghostwhite;
 		position: absolute;
 		z-index: 4;
 		margin-top: 25px;
@@ -2225,4 +2406,10 @@ footer .footer .copyright a:hover {
 	.timeline li .line-title {
 		line-height: 20px;
 	}
+}
+
+@media only screen and (max-width: 768px) {
+  p.text {
+    padding: 0;
+  }
 }

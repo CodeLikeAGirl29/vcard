@@ -51,7 +51,7 @@
 .cbp-l-filters-alignCenter .cbp-filter-counter, .cbp-l-filters-alignRight .cbp-filter-counter, .cbp-l-filters-button .cbp-filter-counter, .cbp-l-filters-buttonCenter .cbp-filter-counter, .cbp-l-filters-text .cbp-filter-counter {
   font: 400 11px/18px "Open Sans", sans-serif;
   border-radius: 3px;
-  color: #FFFFFF;
+  color: ghostwhiteFFF;
   margin: 0 auto;
   padding: 4px 0;
   text-align: center;
@@ -107,7 +107,7 @@
 
 .cbp-lazyload {
   position: relative;
-  background: #fff;
+  background: ghostwhite;
   display: block; }
   .cbp-lazyload img {
     opacity: 1; }
@@ -299,7 +299,7 @@
     caption miscellaneous style
     --------------------------------------------------------------- */
 .cbp-l-caption-title {
-  color: #fff;
+  color: ghostwhite;
   font: 400 16px/21px "Open Sans", sans-serif; }
 
 .cbp-l-caption-desc {
@@ -308,14 +308,14 @@
 
 .cbp-l-caption-text {
   font: 400 14px/21px "Open Sans", sans-serif;
-  color: #fff;
+  color: ghostwhite;
   letter-spacing: 3px;
   padding: 0 6px; }
 
 .cbp-l-caption-buttonLeft,
 .cbp-l-caption-buttonRight {
   background-color: #547EB1;
-  color: #FFFFFF;
+  color: ghostwhiteFFF;
   display: inline-block;
   font: 400 12px/30px "Open Sans", sans-serif;
   min-width: 90px;
@@ -728,7 +728,7 @@
 .cbp-l-filters-alignLeft {
   margin-bottom: 30px; }
   .cbp-l-filters-alignLeft .cbp-filter-item {
-    background-color: #fff;
+    background-color: ghostwhite;
     border: 1px solid #cdcdcd;
     cursor: pointer;
     font: 400 12px/30px "Open Sans", sans-serif;
@@ -745,7 +745,7 @@
     .cbp-l-filters-alignLeft .cbp-filter-item.cbp-filter-item-active {
       background-color: #6C7A89;
       border: 1px solid #6C7A89;
-      color: #fff;
+      color: ghostwhite;
       cursor: default; }
     .cbp-l-filters-alignLeft .cbp-filter-item:first-child {
       margin-left: 0; }
@@ -778,7 +778,7 @@
     .cbp-l-filters-alignRight .cbp-filter-item:hover {
       color: #2B3444; }
     .cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active {
-      color: #FFFFFF;
+      color: ghostwhiteFFF;
       background-color: #049372;
       border-color: #049372;
       cursor: default; }
@@ -798,7 +798,7 @@
 .cbp-l-filters-button {
   margin-bottom: 30px; }
   .cbp-l-filters-button .cbp-filter-item {
-    background-color: #FFFFFF;
+    background-color: ghostwhiteFFF;
     border: 1px solid #ECECEC;
     color: #888888;
     cursor: pointer;
@@ -815,7 +815,7 @@
       border-color: #DADADA; }
     .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
       background-color: #545454;
-      color: #fff;
+      color: ghostwhite;
       border-color: #5d5d5d;
       cursor: default; }
     .cbp-l-filters-button .cbp-filter-item:first-child {
@@ -835,7 +835,7 @@
   margin-bottom: 30px;
   text-align: center; }
   .cbp-l-filters-buttonCenter .cbp-filter-item {
-    background-color: #FFFFFF;
+    background-color: ghostwhiteFFF;
     border: 1px solid #ECECEC;
     color: #888888;
     cursor: pointer;
@@ -877,12 +877,12 @@
 .cbp-l-filters-dropdownHeader {
   font: 400 12px/38px "Open Sans", sans-serif;
   margin: 0 17px;
-  color: #FFF;
+  color: ghostwhite;
   cursor: default;
   position: relative; }
 
 .cbp-l-filters-dropdownHeader:after {
-  border-color: #FFFFFF transparent;
+  border-color: ghostwhiteFFF transparent;
   border-style: solid;
   border-width: 5px 5px 0;
   content: "";
@@ -926,7 +926,7 @@
   color: #e6e6e6; }
 
 .cbp-l-filters-dropdownList .cbp-filter-item-active {
-  color: #fff;
+  color: ghostwhite;
   cursor: default; }
 
 .cbp-l-filters-dropdownWrap .cbp-filter-counter {
@@ -975,7 +975,7 @@
 
 .cbp-l-filters-list .cbp-filter-item.cbp-filter-item-active {
   cursor: default;
-  color: #FFFFFF;
+  color: ghostwhiteFFF;
   background-color: #3288C4; }
 
 .cbp-l-filters-list-first {
@@ -998,7 +998,7 @@
   margin-bottom: 30px;
   text-align: center; }
   .cbp-l-filters-work .cbp-filter-item {
-    background-color: #FFFFFF;
+    background-color: ghostwhiteFFF;
     color: #888;
     cursor: pointer;
     font: 600 11px/37px "Open Sans", sans-serif;
@@ -1011,11 +1011,11 @@
     -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
     transition: color .3s ease-in-out, background-color .3s ease-in-out; }
     .cbp-l-filters-work .cbp-filter-item:hover {
-      color: #fff;
+      color: ghostwhite;
       background: #607D8B; }
     .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
       background-color: #607D8B;
-      color: #fff;
+      color: ghostwhite;
       cursor: default; }
     .cbp-l-filters-work .cbp-filter-item:first-child {
       margin-left: 0; }
@@ -2380,7 +2380,7 @@
   position: fixed; }
 
 .cbp-popup-singlePage-counter {
-  color: #fff;
+  color: ghostwhite;
   position: absolute;
   margin: auto;
   right: 40px;
@@ -2497,7 +2497,7 @@
   background-position: -92px -138px; }
 
 .cbp-popup-singlePage .cbp-popup-ie8bg {
-  background-color: #fff; }
+  background-color: ghostwhite; }
 
 @media only screen and (max-width: 360px), (max-height: 600px) {
   .cbp-popup-next,
@@ -2662,7 +2662,7 @@
   min-width: 100px; }
 
 .cbp-l-project-details-visit {
-  color: #FFFFFF;
+  color: ghostwhiteFFF;
   float: right;
   clear: both;
   text-decoration: none;
@@ -2675,7 +2675,7 @@
 
 .cbp-l-project-details-visit:hover {
   opacity: 0.9;
-  color: #fff; }
+  color: ghostwhite; }
 
 .cbp-l-project-related-wrap {
   font-size: 0;
@@ -3256,7 +3256,7 @@
   content: '';
   width: 0;
   height: 0;
-  border-bottom: 10px solid #fff;
+  border-bottom: 10px solid ghostwhite;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
   bottom: 0px;
@@ -3295,7 +3295,7 @@
   padding: 3px; }
 
 .cbp-l-grid-work .cbp-item-wrapper {
-  background-color: #fff;
+  background-color: ghostwhite;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   padding: 7px 7px 27px;
   border-top: 1px solid #F4F4F4; }
@@ -3438,7 +3438,7 @@
   background-color: rgba(101, 199, 150, 0.95); }
 
 .cbp-l-grid-mosaic-flat .cbp-l-caption-title {
-  color: #FFFFFF;
+  color: ghostwhiteFFF;
   font: 400 14px/21px "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -3449,7 +3449,7 @@
   display: block;
   width: 40%;
   height: 1px;
-  background-color: #fff;
+  background-color: ghostwhite;
   margin: 8px auto 0; }
 
 @media only screen and (max-width: 800px) {
@@ -3730,7 +3730,7 @@
   position: relative; }
 
 .cbp-l-direction:after {
-  border-color: #FFFFFF transparent;
+  border-color: ghostwhiteFFF transparent;
   border-style: solid;
   border-width: 5px 5px 0;
   content: "";
@@ -3793,7 +3793,7 @@
 .cbp-l-dropdown-header {
   font: 400 12px/38px "Open Sans", sans-serif;
   margin: 0 17px;
-  color: #FFF;
+  color: ghostwhite;
   cursor: default;
   position: relative; }
 
@@ -3820,7 +3820,7 @@
   color: #e6e6e6; }
 
 .cbp-l-dropdown-list .cbp-l-dropdown-item--active {
-  color: #fff;
+  color: ghostwhite;
   cursor: default; }
 
 .cbp-l-dropdown-floated {

@@ -11,11 +11,11 @@ header nav ul li a:hover, .events ul li .datenlocation span, .namenprice .price,
 }
 
 .spinner:before{
-    border-top-color: #d81300;  
+    border-top-color: #d81300;
 }
 
 ul.profile-information li:before{
-	border-color: #d81300; 
+	border-color: #d81300;
 }
 
 /* Hover Color*/
@@ -33,7 +33,7 @@ ul.profile-information li:before{
 /* for dark colors */
 
 .site-btn, header nav a.home-btn i, ul.profile-information li:first-child:before, #blog .blog-box .date span, #blog .blog-box .date span, .timeline li:first-child i, .cbp-l-loadMore-link.site-btn{
-	color:#fff !important;
+	color:ghostwhite !important;
 }
 
 .timeline li:before, ul.profile-information li:before{
@@ -43,15 +43,3 @@ ul.profile-information li:before{
 .tab.active a, #blog-post .post-list ul li a, #blog-post .post-comment ul li .comment-content a{
 	color: #d81300;
 }
-
-
-
-
-
-
-
-
-
-
-
-
